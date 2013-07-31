@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+/*
+Theme Name:     HK Transparency report
+Theme URI:      http://opengov.jmsc.hku.hk
+Description:    This is a Largo project child theme for the HK Transparency Report at the JMSC
+Author:         Darcy W. Christ
+Author URI:     http://1000camels.com
+Template:       Largo
+Version:        0.1.0
+*/
+
+@import url("../Largo/style.css");
+
+.navbar-inner {
+	background-color: #005480;
+}
+body.home .entry-header h1.entry-title {
+	display: none !important;
+}
+
+.stats {
+    width: 160px; 
+    float: left;
+    margin: 10px;
+}
+.stats-num {
+    text-align: center;
+    position: relative;
+    width: 160px;
+    height: 160px;
+    line-height: 160px;
+    overflow: hidden;
+    color: #fff;
+    border-radius: 80px;
+    background-color: #b8b8b9;
+    border-color: #fff;
+    font-size: 46px;
+    font-weight: bold;
+    margin: 0 0 0 0px;
+    padding: 0;
+    text-align: center;
+    position: relative;
+    text-shadow: 0 0 5px #bbb;
+}
+.stats-label {
+    text-align: center;
+    font-size: 28px;
+}
