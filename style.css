@@ -1,4 +1,3 @@
-<!DOCTYPE html>
 /*
 Theme Name:     HK Transparency report
 Theme URI:      http://opengov.jmsc.hku.hk
@@ -11,16 +10,23 @@ Version:        0.1.0
 
 @import url("../Largo/style.css");
 
-.navbar-inner {
+a {
+    color: #394e9a;
+}
+a:hover {
+    color: #062c8d;
+}
+
+.navbar-inner, .navbar .divider-vertical, .widget.rev, .widgettitle, .stories h3.widgettitle {
     background-color: #394e9a;
 }
-/*body.home .entry-header h1.entry-title {
-    display: none !important;
-}*/
+.navbar .divider-vertical {
+    border-left-color: inherit;
+}
 
 .stats-container {
     clear: both;
-    height: 280px;
+    height: 320px;
 }
 .stats {
     width: 160px; 
@@ -69,4 +75,26 @@ h3.recent-posts {
 
 #boilerplate {
     display: none;
+}
+
+.widget h3.download-title {
+    font-size: 2em;
+    font-weight: normal;
+    text-transform: uppercase;
+}
+.widget .download-link {
+    display: block;
+    padding: 6px 6px 6px 40px;
+    font-size: 1.5em;
+    text-align: right;
+    font-weight: normal;
+}
+.widget .download-link:hover {
+    background-color: #062c8d;
+}
+.widget .download-link a:hover {
+    text-decoration: none;
+}
+.navbar .active>a, .navbar .active>a:hover {
+    background-color: #062c8d;
 }
