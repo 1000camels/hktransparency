@@ -95,6 +95,6 @@ h3.recent-posts {
 .widget .download-link a:hover {
     text-decoration: none;
 }
-.navbar .active>a, .navbar .active>a:hover {
+.navbar .active>a, .navbar .active>a:hover, .navbar li>a:hover {
     background-color: #062c8d;
 }
