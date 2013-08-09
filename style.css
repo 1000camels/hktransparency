@@ -20,8 +20,7 @@ Version:        0.1.0
 
 .stats-container {
     clear: both;
-    height: 300px;
-    border: 1px solid red;
+    height: 280px;
 }
 .stats {
     width: 160px; 
