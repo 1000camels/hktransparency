@@ -12,12 +12,17 @@ Version:        0.1.0
 @import url("../Largo/style.css");
 
 .navbar-inner {
-	background-color: #005480;
+    background-color: #394e9a;
 }
-body.home .entry-header h1.entry-title {
-	display: none !important;
-}
+/*body.home .entry-header h1.entry-title {
+    display: none !important;
+}*/
 
+.stats-container {
+    clear: both;
+    height: 300px;
+    border: 1px solid red;
+}
 .stats {
     width: 160px; 
     float: left;
@@ -45,4 +50,24 @@ body.home .entry-header h1.entry-title {
 .stats-label {
     text-align: center;
     font-size: 28px;
+    line-height: 1em;
+    padding: 10px;
+}
+.stats-equal-sign {
+    text-align: center;
+    font-size: 72px;
+    padding: 20px;
+    color: #2275bb;
+}
+
+h3.recent-posts {
+    display: none;
+}
+
+.by-author .by, .by-author .author, .byline .sep {
+    display: none;
+}
+
+#boilerplate {
+    display: none;
 }
